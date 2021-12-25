@@ -12,6 +12,7 @@ class UserAdmin(BaseUserAdmin):
     filter_horizontal = ()
     list_filter = ()
     fieldsets = ()
+    list_per_page = 10
 
 
 admin.site.register(User, UserAdmin)
